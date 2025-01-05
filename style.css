@@ -1,0 +1,58 @@
+.background {
+    background-image: url("resources/background.png");
+    background-size: 102% cover;
+    overflow: hidden;
+}
+
+.boy {
+    height: 200px;
+    margin-top: 365px;
+    position: absolute;
+}
+
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.line1 {
+    margin-left: 800px;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    font-family: serif;
+}
+
+.line2 {
+    margin-left: 800px;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 100px;
+    font-family: serif;
+}
+
+.line {
+    margin-left: 450px;
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 180px;
+    text-shadow: 3px 3px red;
+    font-family: fantasy;
+}
+
+.button {
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 290px;
+    font-family: fantasy;
+    border-radius: 8px;
+    background-color: white;
+    visibility: hidden;
+}
